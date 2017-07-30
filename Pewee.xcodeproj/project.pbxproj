@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4150B28F0483DF88CB12AA90 /* Pods_Pewee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E023C48F6615357DDC77819E /* Pods_Pewee.framework */; };
+		77F16E231F2E26EF00F0C135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F16E221F2E26EF00F0C135 /* AppDelegate.swift */; };
+		77F16E251F2E26EF00F0C135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F16E241F2E26EF00F0C135 /* ViewController.swift */; };
+		77F16E281F2E26EF00F0C135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F16E261F2E26EF00F0C135 /* Main.storyboard */; };
+		77F16E2B1F2E26EF00F0C135 /* Pewee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77F16E291F2E26EF00F0C135 /* Pewee.xcdatamodeld */; };
+		77F16E2D1F2E26EF00F0C135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F16E2C1F2E26EF00F0C135 /* Assets.xcassets */; };
+		77F16E301F2E26EF00F0C135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F16E2E1F2E26EF00F0C135 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77F16E371F2E26EF00F0C135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F16E171F2E26EF00F0C135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F16E1E1F2E26EF00F0C135;
+			remoteInfo = Pewee;
+		};
+		77F16E421F2E26EF00F0C135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77F16E171F2E26EF00F0C135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77F16E1E1F2E26EF00F0C135;
+			remoteInfo = Pewee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1806C367797C308876E9C89D /* Pods-Pewee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pewee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pewee/Pods-Pewee.debug.xcconfig"; sourceTree = "<group>"; };
+		77F16E1F1F2E26EF00F0C135 /* Pewee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pewee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F16E221F2E26EF00F0C135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F16E241F2E26EF00F0C135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77F16E271F2E26EF00F0C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77F16E2A1F2E26EF00F0C135 /* Pewee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pewee.xcdatamodel; sourceTree = "<group>"; };
+		77F16E2C1F2E26EF00F0C135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F16E2F1F2E26EF00F0C135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F16E311F2E26EF00F0C135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F16E361F2E26EF00F0C135 /* PeweeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeweeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F16E411F2E26EF00F0C135 /* PeweeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeweeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E023C48F6615357DDC77819E /* Pods_Pewee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pewee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F5954DE32E11890E18266E /* Pods-Pewee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pewee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pewee/Pods-Pewee.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F16E1C1F2E26EF00F0C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4150B28F0483DF88CB12AA90 /* Pods_Pewee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F16E331F2E26EF00F0C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F16E3E1F2E26EF00F0C135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527E9A912C1C134FE6AB34A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1806C367797C308876E9C89D /* Pods-Pewee.debug.xcconfig */,
+				E5F5954DE32E11890E18266E /* Pods-Pewee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5430DA33A45DC80E6209E824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E023C48F6615357DDC77819E /* Pods_Pewee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77F16E161F2E26EF00F0C135 = {
+			isa = PBXGroup;
+			children = (
+				77F16E211F2E26EF00F0C135 /* Pewee */,
+				77F16E201F2E26EF00F0C135 /* Products */,
+				527E9A912C1C134FE6AB34A0 /* Pods */,
+				5430DA33A45DC80E6209E824 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77F16E201F2E26EF00F0C135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F16E1F1F2E26EF00F0C135 /* Pewee.app */,
+				77F16E361F2E26EF00F0C135 /* PeweeTests.xctest */,
+				77F16E411F2E26EF00F0C135 /* PeweeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F16E211F2E26EF00F0C135 /* Pewee */ = {
+			isa = PBXGroup;
+			children = (
+				77F16E221F2E26EF00F0C135 /* AppDelegate.swift */,
+				77F16E241F2E26EF00F0C135 /* ViewController.swift */,
+				77F16E261F2E26EF00F0C135 /* Main.storyboard */,
+				77F16E2C1F2E26EF00F0C135 /* Assets.xcassets */,
+				77F16E2E1F2E26EF00F0C135 /* LaunchScreen.storyboard */,
+				77F16E311F2E26EF00F0C135 /* Info.plist */,
+				77F16E291F2E26EF00F0C135 /* Pewee.xcdatamodeld */,
+			);
+			path = Pewee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F16E1E1F2E26EF00F0C135 /* Pewee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F16E4A1F2E26EF00F0C135 /* Build configuration list for PBXNativeTarget "Pewee" */;
+			buildPhases = (
+				AF4E847C03CC00C4BC8503CB /* [CP] Check Pods Manifest.lock */,
+				77F16E1B1F2E26EF00F0C135 /* Sources */,
+				77F16E1C1F2E26EF00F0C135 /* Frameworks */,
+				77F16E1D1F2E26EF00F0C135 /* Resources */,
+				14543C08C0681AF076333FF1 /* [CP] Embed Pods Frameworks */,
+				BCDA34466F6A7B03F2399933 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pewee;
+			productName = Pewee;
+			productReference = 77F16E1F1F2E26EF00F0C135 /* Pewee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77F16E351F2E26EF00F0C135 /* PeweeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F16E4D1F2E26EF00F0C135 /* Build configuration list for PBXNativeTarget "PeweeTests" */;
+			buildPhases = (
+				77F16E321F2E26EF00F0C135 /* Sources */,
+				77F16E331F2E26EF00F0C135 /* Frameworks */,
+				77F16E341F2E26EF00F0C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F16E381F2E26EF00F0C135 /* PBXTargetDependency */,
+			);
+			name = PeweeTests;
+			productName = PeweeTests;
+			productReference = 77F16E361F2E26EF00F0C135 /* PeweeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77F16E401F2E26EF00F0C135 /* PeweeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F16E501F2E26EF00F0C135 /* Build configuration list for PBXNativeTarget "PeweeUITests" */;
+			buildPhases = (
+				77F16E3D1F2E26EF00F0C135 /* Sources */,
+				77F16E3E1F2E26EF00F0C135 /* Frameworks */,
+				77F16E3F1F2E26EF00F0C135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77F16E431F2E26EF00F0C135 /* PBXTargetDependency */,
+			);
+			name = PeweeUITests;
+			productName = PeweeUITests;
+			productReference = 77F16E411F2E26EF00F0C135 /* PeweeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F16E171F2E26EF00F0C135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cattla Lee";
+				TargetAttributes = {
+					77F16E1E1F2E26EF00F0C135 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9D3A23DZBC;
+						ProvisioningStyle = Automatic;
+					};
+					77F16E351F2E26EF00F0C135 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9D3A23DZBC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77F16E1E1F2E26EF00F0C135;
+					};
+					77F16E401F2E26EF00F0C135 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9D3A23DZBC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77F16E1E1F2E26EF00F0C135;
+					};
+				};
+			};
+			buildConfigurationList = 77F16E1A1F2E26EF00F0C135 /* Build configuration list for PBXProject "Pewee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F16E161F2E26EF00F0C135;
+			productRefGroup = 77F16E201F2E26EF00F0C135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F16E1E1F2E26EF00F0C135 /* Pewee */,
+				77F16E351F2E26EF00F0C135 /* PeweeTests */,
+				77F16E401F2E26EF00F0C135 /* PeweeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F16E1D1F2E26EF00F0C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F16E301F2E26EF00F0C135 /* LaunchScreen.storyboard in Resources */,
+				77F16E2D1F2E26EF00F0C135 /* Assets.xcassets in Resources */,
+				77F16E281F2E26EF00F0C135 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F16E341F2E26EF00F0C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F16E3F1F2E26EF00F0C135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14543C08C0681AF076333FF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pewee/Pods-Pewee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4E847C03CC00C4BC8503CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDA34466F6A7B03F2399933 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pewee/Pods-Pewee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F16E1B1F2E26EF00F0C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F16E251F2E26EF00F0C135 /* ViewController.swift in Sources */,
+				77F16E2B1F2E26EF00F0C135 /* Pewee.xcdatamodeld in Sources */,
+				77F16E231F2E26EF00F0C135 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F16E321F2E26EF00F0C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F16E3D1F2E26EF00F0C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77F16E381F2E26EF00F0C135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F16E1E1F2E26EF00F0C135 /* Pewee */;
+			targetProxy = 77F16E371F2E26EF00F0C135 /* PBXContainerItemProxy */;
+		};
+		77F16E431F2E26EF00F0C135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77F16E1E1F2E26EF00F0C135 /* Pewee */;
+			targetProxy = 77F16E421F2E26EF00F0C135 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77F16E261F2E26EF00F0C135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F16E271F2E26EF00F0C135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77F16E2E1F2E26EF00F0C135 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F16E2F1F2E26EF00F0C135 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F16E481F2E26EF00F0C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F16E491F2E26EF00F0C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F16E4B1F2E26EF00F0C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1806C367797C308876E9C89D /* Pods-Pewee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9D3A23DZBC;
+				INFOPLIST_FILE = Pewee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekrose.Pewee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		77F16E4C1F2E26EF00F0C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F5954DE32E11890E18266E /* Pods-Pewee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9D3A23DZBC;
+				INFOPLIST_FILE = Pewee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekrose.Pewee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		77F16E4E1F2E26EF00F0C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9D3A23DZBC;
+				INFOPLIST_FILE = PeweeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekrose.PeweeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pewee.app/Pewee";
+			};
+			name = Debug;
+		};
+		77F16E4F1F2E26EF00F0C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9D3A23DZBC;
+				INFOPLIST_FILE = PeweeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekrose.PeweeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pewee.app/Pewee";
+			};
+			name = Release;
+		};
+		77F16E511F2E26EF00F0C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9D3A23DZBC;
+				INFOPLIST_FILE = PeweeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekrose.PeweeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pewee;
+			};
+			name = Debug;
+		};
+		77F16E521F2E26EF00F0C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9D3A23DZBC;
+				INFOPLIST_FILE = PeweeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekrose.PeweeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pewee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F16E1A1F2E26EF00F0C135 /* Build configuration list for PBXProject "Pewee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F16E481F2E26EF00F0C135 /* Debug */,
+				77F16E491F2E26EF00F0C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F16E4A1F2E26EF00F0C135 /* Build configuration list for PBXNativeTarget "Pewee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F16E4B1F2E26EF00F0C135 /* Debug */,
+				77F16E4C1F2E26EF00F0C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F16E4D1F2E26EF00F0C135 /* Build configuration list for PBXNativeTarget "PeweeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F16E4E1F2E26EF00F0C135 /* Debug */,
+				77F16E4F1F2E26EF00F0C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F16E501F2E26EF00F0C135 /* Build configuration list for PBXNativeTarget "PeweeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F16E511F2E26EF00F0C135 /* Debug */,
+				77F16E521F2E26EF00F0C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77F16E291F2E26EF00F0C135 /* Pewee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77F16E2A1F2E26EF00F0C135 /* Pewee.xcdatamodel */,
+			);
+			currentVersion = 77F16E2A1F2E26EF00F0C135 /* Pewee.xcdatamodel */;
+			path = Pewee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77F16E171F2E26EF00F0C135 /* Project object */;
+}
